@@ -23,5 +23,5 @@ app.del('/images', koaBody,function*(){
   this.body=ret;
 });
 
-app.listen();
+app.listen(3000);
 ```
